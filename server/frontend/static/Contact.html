@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - Dealerships</title>
+  <!-- Link the stylesheets -->
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li><a class="nav-link" style="font-size: larger;" href="/">Home</a></li>
+          <li><a class="nav-link" style="font-size: larger;" href="/about">About Us</a></li>
+          <li><a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <div class="card" style="width: 70%; margin: auto; margin-top:5%; padding:20px;">
+    <h1 style="text-align:center; color:darkturquoise;">Contact Us</h1>
+    <p style="text-align:center;">We’d love to hear from you! Reach out to us using the details below or send us a message.</p>
+
+    <div style="display:flex; flex-direction:row; justify-content:space-around; margin-top:30px;">
+      <!-- Contact Info -->
+      <div style="width:45%;">
+        <h3>Our Office</h3>
+        <p>Best Cars Dealership</p>
+        <p>123 Main Street, Toronto, Canada</p>
+        <p>Email: info@bestcars.com</p>
+        <p>Phone: +1 (555) 123-4567</p>
+      </div>
+
+      <!-- Contact Form -->
+      <div style="width:45%;">
+        <h3>Send us a message</h3>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Your Email">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message:</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="background-color:darkturquoise;">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
