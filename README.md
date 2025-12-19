@@ -4,7 +4,7 @@
 fullstack_developer_capstone_final
 
 ## Project name
-fullstack_developer_capstone
+fullstack_developer_capstone_final
 
 ## Project overview
 This project is a full stack web application built as part of the Full Stack Developer Capstone. It includes:
