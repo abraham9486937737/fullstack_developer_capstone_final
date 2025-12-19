@@ -1,7 +1,7 @@
 # fullstack_developer_capstone
 
 ## Repository name
-xrwvm-fullstack_developer_capstone
+fullstack_developer_capstone_final
 
 ## Project name
 fullstack_developer_capstone
