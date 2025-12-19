@@ -6,6 +6,9 @@ https://github.com/abraham9486937737/fullstack_developer_capstone_final
 ## Deployment
 - Backend: https://<your-cloud-app>.mybluemix.net/djangoapp/
 - Frontend: https://<your-cloud-app>.mybluemix.net/
+- - Home: https://abrahamcbe-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/
+- - About Us: https://abrahamcbe-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/about/
+- - Contact Us: https://abrahamcbe-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/contact/
 
 ## Project Overview
 This project is a full stack web application built as part of the Full Stack Developer Capstone. It includes:
