@@ -4,11 +4,11 @@
 https://github.com/abraham9486937737/fullstack_developer_capstone_final
 
 ## Deployment
-- Backend: https://<your-cloud-app>.mybluemix.net/djangoapp/
-- Frontend: https://<your-cloud-app>.mybluemix.net/
-- - Home: https://abrahamcbe-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/
-- - About Us: https://abrahamcbe-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/about/
-- - Contact Us: https://abrahamcbe-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/contact/
+- Backend: https://abrahamcbe-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/djangoapp/
+- Frontend: https://abrahamcbe-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/
+- Home: https://abrahamcbe-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/
+- About Us: https://abrahamcbe-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/about/
+- Contact Us: https://abrahamcbe-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/contact/
 
 ## Project Overview
 This project is a full stack web application built as part of the Full Stack Developer Capstone. It includes:
@@ -22,9 +22,15 @@ This project is a full stack web application built as part of the Full Stack Dev
 - JavaScript
 - HTML/CSS
 - REST APIs
+- Bootstrap
 
 ## How to Run Locally
 ```bash
+# Clone the repository
 git clone https://github.com/abraham9486937737/fullstack_developer_capstone_final.git
+
+# Navigate into the project folder
 cd fullstack_developer_capstone_final
+
+# Start the Django server
 python3 manage.py runserver
