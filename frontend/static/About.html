@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - Dealerships</title>
+  <!-- Link the stylesheets -->
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Header -->
+  <div class="card" style="width: 80%; margin: auto; margin-top:5%;">
+    <div class="banner about-header" style="padding:20px; text-align:center;">
+      <h1>About Us</h1>
+      <p>Welcome to Best Cars dealership, home to the best cars in North America. 
+         We specialize in selling both domestic and imported cars at reasonable prices, 
+         with a commitment to quality service and customer satisfaction.</p>
+    </div>
+
+    <!-- Team Section -->
+    <div style="display: flex; flex-direction: row; justify-content: space-around; margin:20px;">
+      <div class="card" style="width: 30%;">
+        <img class="card-img-top" src="/static/person1.jpg" alt="Alice Johnson">
+        <div class="card-body">
+          <h5 class="title">Alice Johnson</h5>
+          <p>Sales Manager</p>
+          <p class="card-text">Alice has over 10 years of experience helping customers find their perfect car.</p>
+          <p>alice.johnson@example.com</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 30%;">
+        <img class="card-img-top" src="/static/person2.jpg" alt="Michael Smith">
+        <div class="card-body">
+          <h5 class="title">Michael Smith</h5>
+          <p>Service Head</p>
+          <p class="card-text">Michael ensures every vehicle is maintained to the highest standards.</p>
+          <p>michael.smith@example.com</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 30%;">
+        <img class="card-img-top" src="/static/person3.jpg" alt="Sophia Lee">
+        <div class="card-body">
+          <h5 class="title">Sophia Lee</h5>
+          <p>Customer Relations</p>
+          <p class="card-text">Sophia is dedicated to making every customer feel valued and supported.</p>
+          <p>sophia.lee@example.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
